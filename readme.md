@@ -82,6 +82,8 @@ formation mechanism. We provide codes for monochromatic and extended mass and sp
 # CREDITS
 
 If using this code, please cite:
+
     1. arXiv:2107.00013, arXiv:2107.00016, arXiv:2207.09462, arXiv:2212.03878
-    2. including inflaton: arXiv:2305.10518, arXiv:2309.06505
+    
+    2. Including inflaton: arXiv:2305.10518, arXiv:2309.06505
 
