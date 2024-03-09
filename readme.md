@@ -1,33 +1,30 @@
-#------------------------------#
-ABOUT THE PACKAGE
-#------------------------------#
 
-FRISBHEE - FRIedmann Solver for Black Hole Evaporation in the Early-universe
-Authors: Andrew Cheek, Lucien Heurtier, Yuber F. Perez-Gonzalez, Jessica Turner
+# ABOUT THE PACKAGE
 
 Python package providing the solution of the Friedmann - Boltzmann equations for Primordial Black 
 Holes + SM radiation + BSM Models + inflaton field.
 
+FRISBHEE - FRIedmann Solver for Black Hole Evaporation in the Early-universe
+Authors: Andrew Cheek, Lucien Heurtier, Yuber F. Perez-Gonzalez, Jessica Turner
 
-#-------------------------------------------#
-FRISBHEE + Inflaton + Reheating + Dark Matter
-#-------------------------------------------#
+# INCLUDING INFLATON
+
+Author: D. Kpatcha 
+
+
+# FRISBHEE + Inflaton + Reheating + Dark Matter
 
 Modificatins to include inflaton in the evolution
 The main part is FRISBHEE has been modified to include the decay/scattering of inflaton in the dynamical
 evolving system. It allows to study all scenarios of reheating, and compute the relic density of dark matter
 produced by the evaporating PBH. Inflaton decays into SM only.
-Author: D. Kpatcha 
-
 
 This package provides the solution of the Friedmann - Boltzmann equations for Primordial Black 
 Holes + SM radiation + BSM Models. We consider the collapse of density fluctuations as the PBH 
 formation mechanism. We provide codes for monochromatic and extended mass and spin distributions.
 
 
-#-----------------#
-CONTAINS
-#-----------------#
+# CONTAINS
 
 	SolFBEqs_MassDist.py: contains classes related to solving equations for extended PBH mass 
 	                      distribution return the full evolution of the PBH, SM and Dark Radiation 
