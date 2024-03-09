@@ -61,9 +61,7 @@ formation mechanism. We provide codes for monochromatic and extended mass and sp
                	infaton decay coupling, ...) are defined.
 
 
-#------------------------#
-INSTALLATION AND RUNNING
-#------------------------#
+# INSTALLATION AND RUNNING
 
 	1. No specific installation instructions needed. just required modules (see below)
 	
@@ -72,10 +70,7 @@ INSTALLATION AND RUNNING
 	   ./Results/k=$kn/phiff/$yuk/$MBHin/databeta=$beta/sigma_$sigmaM/
 
 
-
-#-----------------#
-REQUIRED MODULES
-#-----------------#
+# REQUIRED MODULES
 
 	1. We use Pathos (https://pathos.readthedocs.io/en/latest/pathos.html) for parallelisation, and 
            tqdm (https://pypi.org/project/tqdm/) for progress meter. These should be installed in order 
@@ -84,10 +79,9 @@ REQUIRED MODULES
 	2. ulysses (provided with the package, but can be installed independtly)
 
 
-#-----------------#
-CREDITS
-#-----------------#
+# CREDITS
 
 If using this code, please cite:
-    arXiv:2107.00013, arXiv:2107.00016, arXiv:2207.09462, arXiv:2212.03878, arXiv:2305.10518, arXiv:2309.06505
+    1. arXiv:2107.00013, arXiv:2107.00016, arXiv:2207.09462, arXiv:2212.03878
+    2. including inflaton: arXiv:2305.10518, arXiv:2309.06505
 
