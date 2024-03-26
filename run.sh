@@ -38,4 +38,4 @@ echo $yphi	$kn	$logMBHin > tempyuk.dat
 			
 mkdir -p $path/phiff/$yuk/$MBHin/databeta=$beta/sigma_$sigmaM/
 python3 -W ignore example_DM_MassDist.py $logmDM $beta $logMBHin $sigmaM $alpha $Mdist $yphi
-mv $path/data_scan*  $path/phiff/$yuk/$MBHin/databeta=$beta/sigma_$sigmaM/
+mv $path/data_scan*  $path/phiff/$yukdir/$MBHin/databeta=$beta/sigma_$sigmaM/
