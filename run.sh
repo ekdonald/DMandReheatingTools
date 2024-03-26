@@ -34,7 +34,7 @@ echo " "
 echo "omega, yphi, alpha = ", $omega, $yphi, $alpha
 
 touch tempyuk.dat
-echo $yphi	$kn	$logMBHin > tempyuk.dat
+echo $yphi    $kn    $logmDM    $logMBHin > tempyuk.dat
 			
 mkdir -p $path/phiff/$yuk/$MBHin/databeta=$beta/sigma_$sigmaM/
 python3 -W ignore example_DM_MassDist.py $logmDM $beta $logMBHin $sigmaM $alpha $Mdist $yphi
