@@ -47,7 +47,7 @@ for kvar in "${kList[@]}"; do
 		for logMBHin in "${logMBHinlist[@]}"; do
 			MBHin="MBH1E"$logMBHin
 			touch tempyuk.dat
-			echo $yphi	$kn	$logMBHin > tempyuk.dat
+			echo $yphi    $kn    $logmDM    $logMBHin > tempyuk.dat
 			
 			for logmDM in "${logmDMList[@]}"; do
 				mDMin="mDM1E"$logmDM			
